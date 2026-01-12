@@ -19,6 +19,9 @@ public class emergencydetector {
         System.out.println("Ubicación donde se encuentra: ");
         String ubicacion = scanner.nextLine();
 
-        return new emergencyevent(tipo, ubicacion);
+        System.out.print("Nivel de gravedad (baja/alta): ");
+        String gravedad = scanner.nextLine();
+
+        return new emergencyevent(tipo, ubicacion, gravedad);
     }
 }

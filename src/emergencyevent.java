@@ -1,25 +1,28 @@
 public class emergencyevent {
     private String tipo;
     private String ubicacion;
+    private String gravedad;
 
-    // Constructor
-    public emergencyevent(String tipo, String ubicacion) {
+    public emergencyevent(String tipo, String ubicacion, String gravedad) {
         this.tipo = tipo;
         this.ubicacion = ubicacion;
+        this.gravedad = gravedad;
     }
 
-//get y set
-
-    public String gettipo() {
+    public String getTipo() {
         return tipo;
     }
 
-    public String getubicacion() {
+    public String getUbicacion() {
         return ubicacion;
     }
 
+    public String getGravedad() {
+        return gravedad;
+    }
+
+    @Override
     public String toString() {
-        return "Tipo: " + tipo +
-                ", Ubicación: " + ubicacion;
+        return "Tipo: " + tipo + " | Ubicación: " + ubicacion + " | Gravedad: " + gravedad;
     }
 }
