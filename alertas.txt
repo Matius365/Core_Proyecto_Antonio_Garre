@@ -2,3 +2,4 @@ Enviando alerta a 112: Tipo: atropello, Ubicación: Torreviej
 Enviando alerta a los servicios de emergencias: Tipo: Accidente de moto, Ubicación: Alicante
 Enviando alerta a los servicios de emergencias: Tipo: Accidente de coche, Ubicación: Torrevieja
 Enviando alerta a los servicios de emergencias: Tipo: Accidente de coche, Ubicación: Torrevieja
+Enviando alerta a los servicios de emergencias: Tipo: caida de moto | Ubicación: N-340 pk 690 | Gravedad: baja
