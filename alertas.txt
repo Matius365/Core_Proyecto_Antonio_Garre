@@ -3,3 +3,4 @@ Enviando alerta a los servicios de emergencias: Tipo: Accidente de moto, Ubicaci
 Enviando alerta a los servicios de emergencias: Tipo: Accidente de coche, Ubicación: Torrevieja
 Enviando alerta a los servicios de emergencias: Tipo: Accidente de coche, Ubicación: Torrevieja
 Enviando alerta a los servicios de emergencias: Tipo: caida de moto | Ubicación: N-340 pk 690 | Gravedad: baja
+Enviando alerta a los servicios de emergencias: Tipo: terremoto | Ubicación: calle fuenlabrada con calle peralta | Gravedad: alta | Fecha y hora: 2026-02-22T12:05:36.809719
