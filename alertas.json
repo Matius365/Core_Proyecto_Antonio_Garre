@@ -1,0 +1,16 @@
+[ {
+  "tipo" : "accidente de coche",
+  "ubicacion" : "calle mayor 7",
+  "gravedad" : "alta",
+  "fechaHora" : "22/02/2026 12:52:53"
+}, {
+  "tipo" : "caida de arbol",
+  "ubicacion" : "calle traumada",
+  "gravedad" : "baja",
+  "fechaHora" : "22/02/2026 12:59:26"
+}, {
+  "tipo" : "alcance entre dos coches",
+  "ubicacion" : "calle portada 5",
+  "gravedad" : "alta",
+  "fechaHora" : "22/02/2026 13:00:54"
+} ]
