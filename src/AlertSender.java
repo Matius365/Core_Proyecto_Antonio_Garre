@@ -2,17 +2,16 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 
 import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class alertsender {
+public class AlertSender {
 
     private static final String FILE_PATH = "alertas.json";
 
-    public void sendAlert(emergencyevent event) {
+    public void sendAlert(EmergencyEvent event) {
 
         if (event == null) {
             System.out.println("No hay emergencia que enviar.");
@@ -35,12 +34,12 @@ public class alertsender {
         try {
 
             File file = new File(FILE_PATH);
-            List<emergencyevent> listaEventos = new ArrayList<>();
+            List<EmergencyEvent> listaEventos = new ArrayList<>();
 
             // Si el archivo ya existe, leemos lo que hay
             if (file.exists()) {
-                emergencyevent[] eventosArray =
-                        mapper.readValue(file, emergencyevent[].class);
+                EmergencyEvent[] eventosArray =
+                        mapper.readValue(file, EmergencyEvent[].class);
                 listaEventos = new ArrayList<>(Arrays.asList(eventosArray));
             }
 

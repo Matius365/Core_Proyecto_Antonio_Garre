@@ -13,4 +13,9 @@
   "ubicacion" : "calle portada 5",
   "gravedad" : "alta",
   "fechaHora" : "22/02/2026 13:00:54"
+}, {
+  "tipo" : "terremoto",
+  "ubicacion" : "campo de san jose",
+  "gravedad" : "alta",
+  "fechaHora" : "22/02/2026 13:04:20"
 } ]

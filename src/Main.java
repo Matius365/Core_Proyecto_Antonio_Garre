@@ -28,11 +28,11 @@ public class Main {
         } catch (IOException e) {
             System.out.println("Error al leer el fichero: " + e.getMessage());
         }
-        emergencydetector detector = new emergencydetector();
-        alertsender sender = new alertsender();
+        EmergencyDetector detector = new EmergencyDetector();
+        AlertSender sender = new AlertSender();
 
         // 1. Detectamos el evento (pregunta al usuario)
-        emergencyevent evento = detector.detectEvent();
+        EmergencyEvent evento = detector.detectEvent();
 
         // 2. Enviamos la alerta (guarda en alertas.txt)
         sender.sendAlert(evento);

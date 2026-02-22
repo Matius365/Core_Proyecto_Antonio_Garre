@@ -1,14 +1,14 @@
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class emergencyevent {
+public class EmergencyEvent {
     private String tipo;
     private String ubicacion;
     private String gravedad;
     private String fechaHora;
 
     //cambiamos la forma de guardar las alertas a JSON
-    public emergencyevent(String tipo, String ubicacion, String gravedad) {
+    public EmergencyEvent(String tipo, String ubicacion, String gravedad) {
         this.tipo = tipo;
         this.ubicacion = ubicacion;
         this.gravedad = gravedad;
@@ -19,7 +19,7 @@ public class emergencyevent {
         this.fechaHora = LocalDateTime.now().format(FORMATO); //He añadido la fecha y la hora de la emergencia.
     }
     //constructor vacio para el JSON
-    public emergencyevent(){
+    public EmergencyEvent(){
     }
 
     public String getTipo() {

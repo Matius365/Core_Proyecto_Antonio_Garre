@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class emergencydetector {
+public class EmergencyDetector {
 
-    public emergencyevent detectEvent() {
+    public EmergencyEvent detectEvent() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("¿Hay alguna emergencia? (S/N)");
@@ -22,6 +22,6 @@ public class emergencydetector {
         System.out.print("Nivel de gravedad (baja/alta): ");
         String gravedad = scanner.nextLine();
 
-        return new emergencyevent(tipo, ubicacion, gravedad);
+        return new EmergencyEvent(tipo, ubicacion, gravedad);
     }
 }
