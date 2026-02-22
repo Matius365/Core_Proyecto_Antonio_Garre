@@ -1,4 +1,6 @@
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Locale;
 
 public class emergencyevent {
     private String tipo;
@@ -29,11 +31,15 @@ public class emergencyevent {
         return FechaHora;
     }
 
+    //Damos formato a la fecha y a la hora
+    private static final DateTimeFormatter FORMATO =
+            DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
+
     @Override
     public String toString() {
         return "Tipo: " + tipo +
                 " | Ubicación: " + ubicacion +
                 " | Gravedad: " + gravedad +
-                " | Fecha y hora: " + FechaHora;
+                " | Fecha y hora: " + FechaHora.format(FORMATO);//fecha y hora con el formato
     }
 }
